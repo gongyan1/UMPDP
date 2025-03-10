@@ -5,7 +5,7 @@ Pytorch implementation of "Rethinking Multispectral Pedestrian Detection Challen
 
 ## Changelog
 - [x] Release the initial result for UMPDP. [2024-05-08]
-- [ ] Release the initial result for UMPDP. [Come Soon]
+- [ ] Release the initial code for UMPDP. [Come Soon]
 
 
 ## Introduction
