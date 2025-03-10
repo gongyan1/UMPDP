@@ -1,12 +1,11 @@
-# Rethinking Multispectral Pedestrian Detection Challenges: A Universal Paradigm
+# Implicit Illumination-Aware Representation with Cross-Modal Pre-Fusion Alignment for Universal Multispectral Pedestrian Detection
 
-Pytorch implementation of "Rethinking Multispectral Pedestrian Detection Challenges: A Universal Paradigm"
+Pytorch implementation of "Implicit Illumination-Aware Representation with Cross-Modal Pre-Fusion Alignment for Universal Multispectral Pedestrian Detection"
 
 
 ## Changelog
-- [x] Release the initial result for UMPDP. [2024-05-08]
-- [ ] Release the initial code for UMPDP. [Come Soon]
-
+- [x] Release the result for UMPDP.
+- [x] Release the code for UMPDP. 
 
 ## Introduction
 
