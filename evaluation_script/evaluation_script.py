@@ -663,9 +663,3 @@ if __name__ == "__main__":
     #     results[-1], results[-2] = results[-2], results[-1]
     draw_all(results, filename=args.evalFig)
 
-
-# python evaluation_script.py  --annFile KAIST_annotation.json  --rstFile state_of_arts/ARCNN_result.txt state_of_arts/CIAN_result_new.txt state_of_arts/EMPDet_8_5_sorted_improved.txt state_of_arts/IAF-RCNN_.txt state_of_arts/MBNet_result.txt state_of_arts/MLPD_result.txt state_of_arts/MSDS-RCNN_result.txt  --evalFig empdet0111.jpg
-
-# python evaluation_script.py  --annFile KAIST_annotation.json  --rstFile state_of_arts/ARCNN_result.txt state_of_arts/CIAN_result_new.txt state_of_arts/IAMPDet_8_5_sorted_improved.txt state_of_arts/IAF-RCNN_.txt state_of_arts/MBNet_result.txt state_of_arts/MLPD_result.txt state_of_arts/MSDS-RCNN_result.txt  --evalFig empdet0115.jpg
-
-# python evaluation_script.py  --annFile KAIST_annotation.json  --rstFile state_of_arts/UMPDP.txt
