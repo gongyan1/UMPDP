@@ -1,0 +1,27 @@
+# COCO 2017 dataset http://cocodataset.org - first 128 training images
+# Train command: python train.py --data coco128.yaml
+# Default dataset location is next to /yolov5:
+#   /parent_folder
+#     /coco128
+#     /yolov5
+
+# kaist-pixel dataset
+# train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
+train_rgb: /root/FANet/data/kaist_dataset/train/RGB/  
+val_rgb: /root/FANet/data/kaist_dataset/val/RGB/  
+test_rgb: /root/FANet/data/kaist_dataset/test/RGB/  
+train_ir: /root/FANet/data/kaist_dataset/train/images/ 
+val_ir: /root/FANet/data/kaist_dataset/val/images/
+test_ir: /root/FANet/data/kaist_dataset/test/images/
+
+
+# task-master kasit dataset
+#train: /home/ubuntu/dataset/kaist dataset/gy_copy/train/train.txt # 128 images
+#val: /home/ubuntu/dataset/kaist dataset/gy_copy/train/val.txt  # 128 images
+#test: /home/ubuntu/dataset/kaist dataset/gy_copy/test/thermal/
+
+# number of classes
+nc: 1
+
+# class names
+names: ['person']
